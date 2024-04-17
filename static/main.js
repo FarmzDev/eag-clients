@@ -132,10 +132,13 @@ var clients = {"Eaglercraft 1.8.8": {
     "21m12-24": "eagler_1.5.2_21m12-24",
     "21m12-17": "eagler_1.5.2_21m12-17",
     "20m06-29": "eagler_1.5.2_20m06-29",
+},
+"Ayuncraft": {
+    "v1": "ayuncraft_1.5.2"
 }}
 
 function enterEaglerClient(client, version) {
     versions = clients[client]
     version = versions[version]
-    window.location = (location.origin + "/clients/" + version + "/index.html")
+    window.location = ("https://farmzdev.github.io/pratal-unblocker/clients/" + version + "/index.html")
 }
