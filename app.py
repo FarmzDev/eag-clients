@@ -18,5 +18,3 @@ def eaglercraft():
     return render_template("eagl.html")
 
 app.register_blueprint(clients_static_bp)
-
-app.run(host="0.0.0.0", port=80, debug=True)
